@@ -1,4 +1,4 @@
-# SDL Pi Collisions
+# Pi Collisions
 
 A small physics experiment using **SDL3** and **C++** to simulate 1D elastic collisions between blocks.  
 This project uses **CMake** for building and requires **SDL3** installed on your system.
