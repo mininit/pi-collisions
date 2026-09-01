@@ -1,15 +1,14 @@
 # Pi Collisions
 
-A small physics experiment using **SDL3** and **C++** to simulate 1D elastic collisions between blocks.  
-This project uses **CMake** for building and requires **SDL3** installed on your system.
+A small physics experiment simulating 1D elastic collisions between blocks, built with SDL3 and C++.
 
 ## Requirements
 
-- C++20 or later  
-- CMake 3.22+  
-- SDL3 (installed via Homebrew on macOS)
+- CMake 3.22+
+- A C++20 compiler
+- SDL3
 
-## Install SDL3 (Homebrew)
+## Install SDL3 (macOS via Homebrew)
 
 ```sh
 brew install sdl3
@@ -18,18 +17,18 @@ brew install sdl3
 ## Build
 
 ```sh
-cmake -B build
-cmake --build build
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j
 ```
 
-## Run the Program
+## Run
 
 ```sh
-cd build
-./blocks
+./build/blocks
 ```
 
 ## Project Structure
+
 ```
 /
 ├── src/
